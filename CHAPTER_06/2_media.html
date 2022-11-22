@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+<style>
+.container{
+    background-color: rebeccapurple;
+    color: white;
+    height: 54vh;
+}
+
+@media screen and (max-width: 800px){  /* it means that after 800px height, page will adapt another css which is given below and this is media    query concept to change css properties when we want to create responsive website */
+    body{
+        background-color: yellowgreen;
+    }
+    .container{
+        background-color: turquoise;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in nostrum laboriosam repudiandae, provident at nemo quas earum libero, dolorum fuga. Corporis voluptas iure possimus debitis cum, ex amet eum. Quae aperiam perspiciatis perferendis.</div>
+</body>
+</html>
