@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+    <style>
+
+      .container{
+          height: 1000px;
+          width: 800px;
+           background-color: cadetblue;
+           color: white;
+           border: 10px solid yellow;
+           background-image: url('moon.jpg');
+          background-repeat: no-repeat;
+          background-size: cover 23px 24px;
+          background-position: center;
+    
+      }
+
+      body{
+          /* background-image: url('moon.jpg');
+          background-repeat: no-repeat; */
+     }
+    </style>
+</head>
+
+<body>
+    <div class="container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, assumenda aspernatur facere quidem minus ab repellat iusto cupiditate delectus! Alias animi deleniti at facere. Labore dicta sint dignissimos quaerat quasi.
+</body>
+</html> 
