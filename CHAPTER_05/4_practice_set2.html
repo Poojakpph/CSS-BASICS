@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating a layout using flexbox</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+    padding: 14px;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 64px;
+    }
+
+ .left{
+     background-color: yellowgreen;
+     height: 95vh;
+     width: 40vw;
+     float: left;
+ }
+ .right{
+     background-color: tomato;
+     height: 95vh;
+     width: 40vw;
+     float: right;
+ }
+
+ .container{
+     display: flex;
+     justify-content: space-between;
+ }
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+<div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, in sit! Eos nostrum exercitationem in nesciunt impedit reprehenderit, quibusdam ducimus quae laboriosam incidunt repellendus atque mollitia illum vel dicta blanditiis laudantium enim. Voluptatum, officiis!</div>
+
+<div class="right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus quod deserunt atque ipsum eos. Animi ullam sapiente reiciendis aperiam debitis natus voluptatum officia vel quam tempore, eveniet aliquid explicabo ex. Eos, ab ullam. Nulla aliquam saepe explicabo minima eaque voluptas sequi fugit obcaecati dolore similique!</div>
+</div>
+    
+</body>
+</html>
